@@ -57,7 +57,7 @@ function displayContacts(contacts) {
 }
 
 function addRow(contact) {
- var m = document.getElementById("tcontent");
+ var m= document.getElementById("tcontent");
   var mrow = m.insertRow();
    var namecell = mrow.insertCell();
    namecell.innerHTML = contact.name;
