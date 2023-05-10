@@ -61,12 +61,12 @@ function addRow(contact) {
     var contactrow = tttcontact.insertRow();
     
     var namecell = contactrow.insertCell();
-    namecell.innerHTML = tttcontact.name;
+    namecell.innerHTML = contact.name;
     
       var addresscell = contactrow.insertCell();
-   addresscell.innerHTML = tttcontact.address;
+   addresscell.innerHTML = contact.address;
     
        var  phonecell = contactrow.insertCell();
-  phonecell.innerHTML = tttcontact.phone.mobile;
+  phonecell.innerHTML = contact.phone.mobile;
     
 }
