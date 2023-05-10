@@ -57,16 +57,16 @@ function displayContacts(contacts) {
 }
 
 function addRow(contact) {
- var contact = document.getElementById("tcontent");
-    var contactrow = contact.insertRow();
+ var tttcontact = document.getElementById("tcontent");
+    var contactrow = tttcontact.insertRow();
     
     var namecell = contactrow.insertCell();
-    namecell.innerHTML = contact.name;
+    namecell.innerHTML = tttcontact.name;
     
       var addresscell = contactrow.insertCell();
-   addresscell.innerHTML = contact.address;
+   addresscell.innerHTML = tttcontact.address;
     
        var  phonecell = contactrow.insertCell();
-  phonecell.innerHTML = contact.phone.mobile;
+  phonecell.innerHTML = tttcontact.phone.mobile;
     
 }
