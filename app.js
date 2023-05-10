@@ -59,11 +59,11 @@ function displayContacts(contacts) {
 function addRow(contact) {
  var m = document.getElementById("tcontent");
     var mrow = m.insertRow();
-    var namecell = morw.insertCell();
+    var namecell = mrow.insertCell();
     namecell.innerHTML = contact.name;
-        var addresscell = morw.insertCell();
+        var addresscell = mrow.insertCell();
       addresscell.innerHTML = contact.address;
-        var phonecell = morw.insertCell();
+        var phonecell = mrow.insertCell();
     phonecell.innerHTML = contact.phone.mobile;
     
     
