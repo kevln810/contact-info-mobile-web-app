@@ -57,7 +57,20 @@ function displayContacts(contacts) {
 }
 
 function addRow(contact) {
- 
+ var tc = docuemt.getElementById("tcontent");
+    tcrow = tc.insertRow();
+    
+    var namecell = tcrow.insertCell();
+    namecell.innerHTML = contact.name;
+    
+     var addresscell = tcrow.insertCell();
+    addresscell.innerHTML = contact.address;
+        
+      var phonecell = tcrow.insertCell();
+    phonecell.innerHTML = contact.phone.mobile;
+    
+    
+    
     
     
 }
